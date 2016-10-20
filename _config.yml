@@ -11,7 +11,7 @@ email: info@dayoftheprogrammer.se
 description: > # this means to ignore newlines until "baseurl:"
   Endagarskonferens i Jönköping.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://dayoftheprogrammer.se" # the base hostname & protocol for your site
+url: "http://day-of-the-programmer.github.io" #"http://dayoftheprogrammer.se" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
