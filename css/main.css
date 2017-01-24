@@ -35,14 +35,21 @@ g {
 .main-nav {
   width: 100%;
   background-color: #370B5D;
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-nav ul{
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   margin: 0;
   padding: 1rem;
   width: 58rem;
@@ -51,6 +58,7 @@ g {
 .main-nav a {
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+  -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   text-decoration:none;
 }
@@ -65,18 +73,33 @@ a.active {
 }
 
 .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   /*justify-content: center;*/
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height:100%;
 }
 
 .content-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: flex-start;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .content-wrapper > * {
@@ -85,9 +108,16 @@ a.active {
 }
 
 .content {
+  display:-webkit-box;
+  display:-ms-flexbox;
   display:flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .non-bullet {
