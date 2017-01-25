@@ -188,6 +188,20 @@ a.active {
   img {
     display: none;
   }
+  svg {
+    max-width: 250px;
+    max-height: 300px;
+  }
+  .content-wrapper > * {
+    width: auto;
+    padding: 1rem;
+  }
+
+  h1 {
+    overflow-wrap: break-word;
+    word-wrap:break-word;
+    word-break: break-word;
+  }
 
 }
 
