@@ -6,6 +6,7 @@ body {
   color: #c5bbce;
   margin: 0;
   padding: 0;
+  min-width: 320px;
 }
 
 p {
@@ -18,15 +19,15 @@ div > p {
 
 
 h1 {
-  margin-top: 4rem;
-  font-family: 'Montserrat', sans-serif;	
+  margin-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
   font-size: 3rem;
   text-align: center;
 }
 
 h2 {
   font-size: 1.5rem;
-  margin-top: 3rem;
+  margin-top: 2rem;
 }
 
 g {
@@ -34,7 +35,7 @@ g {
 }
 
 svg {
-  max-width: 400px;
+  max-width: 80%;
 }
 
 .main-nav {
@@ -43,8 +44,10 @@ svg {
   display:-webkit-box;
   display:-ms-flexbox;
   display:flex;
+  display:-webkit-flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
+  -webkit-justify-content: center;
   justify-content: center;
 }
 
@@ -52,8 +55,10 @@ svg {
   list-style: none;
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   margin: 0;
   padding: 1rem;
@@ -66,6 +71,7 @@ svg {
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   text-decoration:none;
+  display: block;
 }
 
 .main-nav a:hover {
@@ -80,27 +86,31 @@ a.active {
 .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  justify-content: center;
+  -webkit-justify-content: space-around;
+  justify-content: space-around;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  height:100%;
+  /*height:100%;*/
 }
 
 .content-wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
   -ms-flex-pack: distribute;
+  -webkit-justify-content: space-around;
   justify-content: space-around;
   -webkit-box-align: start;
   -ms-flex-align: start;
@@ -115,6 +125,7 @@ a.active {
 .content {
   display:-webkit-box;
   display:-ms-flexbox;
+  display: -webkit-flex;
   display:flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -137,26 +148,26 @@ a.active {
   font-weight: bold;
 }
 
-@media only screen and (max-device-width: 900px) {
+@media  screen and (max-device-width: 900px) {
   img {
     max-width: 30%;
   }
-
-
-
 }
 
-@media only screen and (max-device-width: 600px) {
+@media  screen and (max-device-width: 600px) {
   body {
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
+    -webkit-flex-direction: column-reverse;
     flex-direction: column-reverse;
     -ms-flex-pack: distribute;
+    -webkit-justify-content: space-around;
     justify-content: space-around;
   }
 
