@@ -152,6 +152,10 @@ a.active {
   font-weight: bold;
 }
 
+.date {
+  margin-top: 2rem;
+}
+
 @media  screen and (max-device-width: 900px) {
   img {
     max-width: 30%;
