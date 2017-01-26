@@ -156,6 +156,10 @@ a.active {
   margin-top: 2rem;
 }
 
+.no-bot {
+  margin-bottom: 0;
+}
+
 @media  screen and (max-device-width: 900px) {
   img {
     max-width: 30%;
