@@ -72,6 +72,7 @@ svg {
   transition: all 0.3s ease-in;
   text-decoration:none;
   display: block;
+  padding:0.5em;
 }
 
 .main-nav a:hover {
