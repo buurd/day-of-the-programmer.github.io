@@ -34,7 +34,7 @@ h2 {
 h3 {
   font-size: 1.2rem;
   margin-top: 0.5rem;
- margin-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 g {
@@ -148,7 +148,7 @@ a.active {
   list-style: none;
   padding: 0.5rem;
   border: 2px solid;
-/*  font-size: 1.5rem;*/
+  /*  font-size: 1.5rem;*/
   font-weight: bold;
 }
 
@@ -166,8 +166,9 @@ a.active {
   text-align: center;
 }
 
-.no-bot {
-  margin-bottom: 0;
+.margin-b {
+  display: block;
+  text-align: center;
 }
 
 @media  screen and (max-device-width: 900px) {
