@@ -3,7 +3,7 @@ layout: who
 permalink: /arrangor
 navigation_weight: 5
 title: Arrangörer
-image: /images/greg.jpg
+image: /images/brandi.jpg
 header: Vi som arrangerar
 ---
 
