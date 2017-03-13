@@ -6,8 +6,7 @@ title: Arrangörer
 header: Vi som arrangerar
 ---
 
-Day of the Programmer är ett initativ av Adam Sernheim och Roland Heimdahl. Med
-stöd av Kvadrat Jönköping.
+Day of the Programmer är ett initativ av Adam Sernheim och Roland Heimdahl. 
 
 
 Vi vill skapa en konferens i vår närmiljö där utbytet av kunskap står i centrum.
