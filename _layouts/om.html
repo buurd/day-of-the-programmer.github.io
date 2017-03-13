@@ -1,28 +1,12 @@
-<!DOCTYPE html>
-<html>
+---
+layout: base
+---
 
-	{% include headers.html %}
+<h1> {{ page.header }} </h1>
 
-	<body>
-    {% include menu.html %}
-
-		<div class="wrapper">
-
-      <h1> {{ page.header }} </h1>
-
-      <div class="content-wrapper">
-        <div class="content">
-          {{ content }}
-        </div>
-        <img src="{{ page.image }}"/>
-      </div>
-
-
-
-		</div>
-
-		{% include analytics.html %}
-		
-	</body>
-
-</html>
+<div class="content-wrapper">
+  <div class="content">
+    {{ content }}
+  </div>
+  <img src="{{ page.image }}"/>
+</div>
