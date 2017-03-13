@@ -1,0 +1,23 @@
+---
+layout: cfp
+permalink: /anmalan
+navigation_weight: 3
+title: Intresseanmälan
+image: /images/ask.jpg
+
+header: Intresse&shy;anmälan
+---
+
+Vi vill fånga upp intresset från dig. Gå in och lämna en preliminär deltagaranmälan,
+ingenting bindande: 
+
+[Intresseanmälan, deltagare](https://docs.google.com/forms/d/e/1FAIpQLSduyPlbGC6YzGurNlBth0eZcL3fylTaZaoHnGqhbukspsisRg/viewform){:.margin-b}
+
+Vill du och ditt företag vara med och göra Jönköping till en mer attraktiv utvecklarstad?
+Här har du ett tillfälle att både hjälpa till och samtidigt ge ditt företag en stund i rampljuset.
+Vi kommer att behöva både ekonomiska bidrag samt 45 och 15 minuters
+föreläsningar.
+Kontakta oss så vi kan påbörja utformningen av ditt företags engagemang i
+konferensen:
+
+[Intresseanmälan, medverkande info@dayoftheprogrammer.se](mailto:info@dayoftheprogrammer.se){:.margin-b}
