@@ -21,6 +21,6 @@ Styr kosan mot södra Sveriges mittpunkt. Knutpunkten mellan Stockholm, Götebor
 <ul class="non-bullet">
 <li>Datum: 2017-09-13</li>
 <li>Tid: 12:00</li>
-<li>Plats: Södra strandgatan 3, Jönköping</li>
+<li>Plats: Gjuterigatan 9, Jönköping</li>
 </ul>
 
