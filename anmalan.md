@@ -8,10 +8,9 @@ image: /images/ask.jpg
 header: Intresse&shy;anmälan
 ---
 
-Vi vill fånga upp intresset från dig. Gå in och lämna en preliminär deltagaranmälan,
-ingenting bindande: 
+En bra konferens kräver deltagare. Påbörja anmälningsprocessen genom att gå in på formuläret genom länken nedan: 
 
-[Intresseanmälan, deltagare](https://docs.google.com/forms/d/e/1FAIpQLSduyPlbGC6YzGurNlBth0eZcL3fylTaZaoHnGqhbukspsisRg/viewform){:.margin-b}
+[Anmälan, deltagare](https://docs.google.com/forms/d/e/1FAIpQLSd7D-Ih08gLk8O5S0FAGo2s0hZx_opB5Br4hzxDvSfAJ-5Q5A/viewform?usp=sf_link){:.margin-b}
 
 Vill du och ditt företag vara med och göra Jönköping till en mer attraktiv utvecklarstad?
 Här har du ett tillfälle att både hjälpa till och samtidigt ge ditt företag en stund i rampljuset.
