@@ -2,10 +2,10 @@
 layout: cfp
 permalink: /anmalan
 navigation_weight: 3
-title: Intresseanmälan
+title: Anmälan
 image: /images/ask.jpg
 
-header: Intresse&shy;anmälan
+header: Anmälan
 ---
 
 En bra konferens kräver deltagare. Påbörja anmälningsprocessen genom att gå in på formuläret genom länken nedan: 
